@@ -19,7 +19,7 @@ public:
         cout << "   Enter number: ";
         cin >> number;
     }
-    void putdata() const
+    void putdata()
     {
         cout << "\n   Name: " << name;
         cout << "\n   Number: " << number;
@@ -37,7 +37,7 @@ public:
         cout << "   Enter paying period (h for hourly, w for weekly, m for monthly): ";
         cin >> period;
     }
-    void putdata() const{
+    void putdata(){
         employee::putdata();
         cout << "\n   Compensation: " << compensation << "$ ";
         if(period == Hourly) cout << "hourly";
@@ -60,7 +60,7 @@ public:
         cout << "   Enter golf club dues: ";
         cin >> dues;
     }
-    void putdata() const
+    void putdata()
     {
         employee2::putdata();
         cout << "\n   Title: " << title;
@@ -79,7 +79,7 @@ public:
         cout << "   Enter number of pubs: ";
         cin >> pubs;
     }
-    void putdata() const
+    void putdata()
     {
         employee2::putdata();
         cout << "\n   Number of publications: " << pubs;
