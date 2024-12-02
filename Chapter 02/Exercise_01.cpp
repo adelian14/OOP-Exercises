@@ -5,10 +5,6 @@
 
 using namespace std;
 
-class sterling{
-
-};
-
 int main()
 {
     int g;
