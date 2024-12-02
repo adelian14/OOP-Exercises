@@ -5,10 +5,6 @@
 
 using namespace std;
 
-class sterling{
-
-};
-
 int main()
 {
     cout    << 1990 << '\t' << setw(5) << 125 << '\n'
